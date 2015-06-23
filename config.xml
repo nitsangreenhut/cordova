@@ -6,7 +6,7 @@
     id        = "com.cbc.purchase"
     version   = "1.0.0">
 
-  <name>מנהל אישורים</name>
+  <name>qa מנהל אישורים</name>
 
   <description>מנהל אישורים - החברה המרכזית ליצור משקאות קלים בע"מ</description>
 
