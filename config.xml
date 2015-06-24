@@ -47,6 +47,7 @@
  
   <gap:plugin name="org.apache.cordova.device" version="0.2.12" />
   <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+  <plugin name="file-transfer" value="org.apache.cordova.file-transfer" />
   <access origin="*" />
   <access origin="https://piis.cbcgroup.co.il" subdomains="true" />
   <access origin="http://www.ynet.co.il/" subdomains="true" />
