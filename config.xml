@@ -48,5 +48,6 @@
   <gap:plugin name="org.apache.cordova.device" version="0.2.12" />
   <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
   <access origin="*" />
+  <access origin="https://piis.cbcgroup.co.il" subdomains="true" />
 
 </widget>
