@@ -49,5 +49,6 @@
   <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
   <access origin="*" />
   <access origin="https://piis.cbcgroup.co.il" subdomains="true" />
+  <access origin="http://www.ynet.co.il/" subdomains="true" />
 
 </widget>
