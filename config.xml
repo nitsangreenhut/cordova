@@ -42,6 +42,7 @@
   <preference name="android-minSdkVersion"      value="7" />
   <preference name="android-installLocation"    value="auto" />
   <preference name="DisallowOverscroll" value="true" />
+  <preference name="EnableViewportScale" value="true" />
 
   <icon src="img/Purchase-icon.png" />
  
