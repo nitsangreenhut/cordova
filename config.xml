@@ -29,7 +29,7 @@
   <preference name="phonegap-version"           value="3.3.0" />
   <!--<preference name="orientation"                value="portrait" />-->
   <preference name="target-device"              value="universal" />
-  <!--<preference name="fullscreen"                 value="true" />
+  <preference name="fullscreen"                 value="true" />
   <preference name="webviewbounce"              value="false" />
   <preference name="prerendered-icon"           value="true" />
   <preference name="stay-in-webview"            value="false" />
@@ -40,7 +40,7 @@
   <preference name="auto-hide-splash-screen" value="true" />
   <preference name="disable-cursor"             value="false" />
   <preference name="android-minSdkVersion"      value="7" />
-  <preference name="android-installLocation"    value="auto" />-->
+  <preference name="android-installLocation"    value="auto" />
   <!--<preference name="DisallowOverscroll" value="true" />-->
   <preference name="EnableViewportScale" value="true" />
 
