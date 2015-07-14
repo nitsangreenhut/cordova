@@ -27,7 +27,7 @@
 
   <preference name="permissions"                value="none"/>
   <preference name="phonegap-version"           value="3.3.0" />
-  <preference name="orientation"                value="portrait" />
+  <!--<preference name="orientation"                value="portrait" />-->
   <preference name="target-device"              value="universal" />
   <preference name="fullscreen"                 value="true" />
   <preference name="webviewbounce"              value="false" />
@@ -41,12 +41,16 @@
   <preference name="disable-cursor"             value="false" />
   <preference name="android-minSdkVersion"      value="7" />
   <preference name="android-installLocation"    value="auto" />
-  <preference name="DisallowOverscroll" value="true" />
+  <!--<preference name="DisallowOverscroll" value="true" />-->
+  <preference name="EnableViewportScale" value="true" />
 
   <icon src="img/Purchase-icon.png" />
  
   <gap:plugin name="org.apache.cordova.device" version="0.2.12" />
   <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
-  <access origin="*" browserOnly="true"/>
+  <plugin name="file-transfer" value="org.apache.cordova.file-transfer" />
+  <access origin="*" />
+  <access origin="https://piis.cbcgroup.co.il" subdomains="true" />
+  <access origin="http://www.ynet.co.il/" subdomains="true" />
 
 </widget>
