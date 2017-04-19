@@ -46,7 +46,7 @@
 
   <icon src="img/Purchase-icon.png" />
  
-  <gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+  <gap:plugin name="org.apache.cordova.device"  />
   <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
   <plugin name="file-transfer" value="org.apache.cordova.file-transfer" />
   <access origin="*" />
