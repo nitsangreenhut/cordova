@@ -49,7 +49,7 @@
  
   <gap:plugin name="org.apache.cordova.camera" version="0.2.3" />
   <gap:plugin name="org.apache.cordova.contacts" version="0.2.3" />
-  <gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+  <plugin name="org.apache.cordova.device" spec="0.3.0" source="pgb" />
   <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
   <access origin="*" browserOnly="true"/>
 
