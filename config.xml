@@ -18,12 +18,12 @@
     Enable individual API permissions by defining each here.
     The 'device' permission is required for the 'deviceready' event.
   -->
-  <feature name="http://api.phonegap.com/1.0/device" />
+  <!--<feature name="http://api.phonegap.com/1.0/device" />
   <feature name="http://api.phonegap.com/1.0/contacts"/>
   <feature name="http://api.phonegap.com/1.0/camera"/>
   <feature name="Camera">
     <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
-  </feature>  
+  </feature>  -->
 
   <preference name="permissions"                value="none"/>
   <preference name="phonegap-version"           value="3.3.0" />
@@ -46,7 +46,7 @@
 
   <icon src="img/Purchase-icon.png" />
  
-  <plugin name="org.apache.cordova.device" spec="0.3.0" source="pgb" />
+ <!-- <plugin name="org.apache.cordova.device" spec="0.3.0" source="pgb" />-->
   <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
   <plugin name="file-transfer" value="org.apache.cordova.file-transfer" />
   <access origin="*" />
