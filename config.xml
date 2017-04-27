@@ -50,7 +50,7 @@
   <!--<gap:plugin name="org.apache.cordova.camera" version="0.2.3" />
   <gap:plugin name="org.apache.cordova.contacts" version="0.2.3" />
   <gap:plugin name="cordova-plugin-device" source="npm"  />-->
-  <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+  <!--<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />-->
   <access origin="*" browserOnly="true"/>
 
 </widget>
