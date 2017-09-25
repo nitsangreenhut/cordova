@@ -26,7 +26,7 @@
   </feature>  -->
 
  
-  <preference name="phonegap-version"           value="cli-6.5.0" />
+  <preference name="phonegap-version" value="cli-6.4.0" />
   <preference name="stay-in-webview"            value="false" />
   <preference name="exit-on-suspend"            value="false" />
   <!--<preference name="orientation"                value="portrait" />-->
