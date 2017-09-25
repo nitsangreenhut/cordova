@@ -30,7 +30,7 @@
   <preference name="stay-in-webview"            value="false" />
   <preference name="exit-on-suspend"            value="false" />
   <!--<preference name="orientation"                value="portrait" />-->
-  <!--<preference name="target-device"              value="universal" />
+  <preference name="target-device"              value="universal" />
   <preference name="fullscreen"                 value="true" />
   <preference name="webviewbounce"              value="false" />
   <preference name="prerendered-icon"           value="true" />
@@ -44,7 +44,7 @@
   <preference name="android-minSdkVersion"      value="7" />
   <preference name="android-installLocation"    value="auto" />
  
-  <preference name="EnableViewportScale" value="true" />-->
+  <preference name="EnableViewportScale" value="true" />
 
   <icon src="img/Purchase-icon.png" />
  
