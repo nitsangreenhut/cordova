@@ -42,7 +42,7 @@
   <preference name="EnableViewportScale" value="true" />
 
   <!--<icon src="img/Purchase-icon.png" />-->
-  <icon src="img/Purchase-icon.png" platform="ios" width="180" height="180" />
+     <icon src="icon.png" />
                
     
  
