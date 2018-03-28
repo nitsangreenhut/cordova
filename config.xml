@@ -55,5 +55,8 @@
   <access origin="*" />
   <access origin="https://piis.cbcgroup.co.il" subdomains="true" />
   <access origin="http://www.ynet.co.il/" subdomains="true" />
+    
+    <allow-navigation href="*" />
+
 
 </widget>
