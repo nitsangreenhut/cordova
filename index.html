@@ -9,7 +9,14 @@
         $(document).bind( "mobileinit", function(event) {
             $.extend($.mobile.zoom, {locked:false,enabled:true});
         });
-        window.location.href = 'https://pgw.cbcgroup.co.il/sap/bc/ui5_ui5/sap/zpurchase/index.html?type=cordova'
+        document.addEventListener("deviceready", onDeviceReady, false);
+        function onDeviceReady() {
+            window.open = cordova.InAppBrowser.open;
+            var ref = cordova.InAppBrowser.open('https://pgw.cbcgroup.co.il/sap/bc/ui5_ui5/sap/zpurchase/index.html?type=cordova', '_self', 'location=no');
+        }
+        var ref = cordova.InAppBrowser.open('https://pgw.cbcgroup.co.il/sap/bc/ui5_ui5/sap/zpurchase/index.html?type=cordova', '_self', 'location=no');
+
+        //window.location.href = 'https://pgw.cbcgroup.co.il/sap/bc/ui5_ui5/sap/zpurchase/index.html?type=cordova'
     </script>        
 </head>
 <body>
