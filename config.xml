@@ -32,7 +32,7 @@
   <preference name="fullscreen"                 value="true" />
   <preference name="webviewbounce"              value="false" />
   <preference name="prerendered-icon"           value="true" />
-  <preference name="stay-in-webview"            value="true" />
+  <preference name="stay-in-webview"            value="false" />
   <preference name="ios-statusbarstyle"         value="black-opaque" />
   <preference name="detect-data-types"          value="true" />
   <preference name="exit-on-suspend"            value="false" />
@@ -44,13 +44,18 @@
   <preference name="DisallowOverscroll" value="true" />
 
   <icon src="img/PhoneBook-icon.png" />
- 
+  <icon src="icon.png" platform="ios" width="114" height="114" />
+
 
  
   <!--<gap:plugin name="org.apache.cordova.camera" version="0.2.3" />
   <gap:plugin name="org.apache.cordova.contacts" version="0.2.3" />
   <gap:plugin name="cordova-plugin-device" source="npm"  />-->
   <!--<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />-->
+  <plugin name="cordova-plugin-inappbrowser" source="npm"/>
+  <allow-navigation href="*" />
+
+
   <access origin="*" browserOnly="true"/>
 
 </widget>
