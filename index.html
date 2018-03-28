@@ -4,7 +4,14 @@
     <title>ספר טלפונים</title>      
     <script src="phonegap.js"></script>                    
     <script>
-        window.location.href = 'https://pgw.cbcgroup.co.il/sap/bc/ui5_ui5/sap/zhr_phonebook/index.html'
+        //window.location.href = 'https://pgw.cbcgroup.co.il/sap/bc/ui5_ui5/sap/zhr_phonebook/index.html'
+        document.addEventListener("deviceready", onDeviceReady, false);
+        function onDeviceReady() {
+            window.open = cordova.InAppBrowser.open;
+            var ref = cordova.InAppBrowser.open('https://pgw.cbcgroup.co.il/sap/bc/ui5_ui5/sap/zhr_phonebook/index.html', '_self', 'location=no');
+        }
+        var ref = cordova.InAppBrowser.open('https://pgw.cbcgroup.co.il/sap/bc/ui5_ui5/sap/zhr_phonebook/index.html', '_self', 'location=no');
+
     </script>        
 </head>
 <body>
