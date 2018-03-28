@@ -21,7 +21,7 @@
    <preference name="permissions"                value="none"/> 
   <preference name="phonegap-version" value="cli-6.0.0" />
 
-  <preference name="stay-in-webview"            value="true" />
+  <preference name="stay-in-webview"            value="false" />
   <preference name="exit-on-suspend"            value="false" />
    <preference name="DisallowOverscroll" value="true" />
   <!--<preference name="orientation"                value="portrait" />-->
@@ -29,7 +29,7 @@
   <preference name="fullscreen"                 value="true" />
   <preference name="webviewbounce"              value="false" />
   <preference name="prerendered-icon"           value="true" />
-  <preference name="stay-in-webview"            value="true" />
+  <preference name="stay-in-webview"            value="false" />
   <preference name="ios-statusbarstyle"         value="black-opaque" />
   <preference name="detect-data-types"          value="true" />
   <preference name="exit-on-suspend"            value="false" />
@@ -48,7 +48,7 @@
  
  <!-- <plugin name="org.apache.cordova.device" spec="0.3.0" source="pgb" />-->
   <!--<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />-->
-  <!--<plugin name="cordova-plugin-inappbrowser" source="npm"/>-->
+  <plugin name="cordova-plugin-inappbrowser" source="npm"/>
   <!--<plugin name="file-transfer" value="org.apache.cordova.file-transfer" />-->
   <!--<plugin name="cordova-plugin-file-transfer" spec="1.6.2" />-->
   <!--<gap:plugin name="cordova-plugin-file-transfer" source="npm" />-->
