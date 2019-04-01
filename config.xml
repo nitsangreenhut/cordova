@@ -25,7 +25,7 @@
     <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
   </feature>  -->
   <preference name="permissions"                value="none"/>
-    <preference name="phonegap-version"  value="cli-6.4.0" />
+    <preference name="phonegap-version"  value="cli-6.5.0" />
 
   <preference name="orientation"                value="portrait" />
   <preference name="target-device"              value="universal" />
